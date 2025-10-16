@@ -1,5 +1,5 @@
-Hotel Booking Cancellation Prediction (Deep Learning)
-Predicting hotel booking cancellations using a Kaggle dataset and Keras NNs.
+**Gisma Airline's Passengers Satisfaction - Classification Model**
+Predict Passenger Satisfaction using Kaggle dataset and Keras NNs.
 
 📂 Project Overview
 Goal: Predict is_canceled to help revenue management & overbooking.
