@@ -11,15 +11,15 @@ Outcome: Best model (Random Forest) → Accuracy: 95.8%, ROC-AUC: 0.99, F1-score
 Source: [https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand](https://www.kaggle.com/datasets/raminhuseyn/airline-customer-satisfaction/data)
 Target: Satisfaction (0/1)
 
-🧭 Approach
-Cleaning (fix NA, drop invalid rows, remove company)
-EDA (lead time distribution, correlation heatmap)
-Preprocess (ColumnTransformer: scale num + OHE cat)
-Balance (SMOTE)
-Modeling (10 NN configs; early stopping)
-Evaluation (Accuracy, Precision, Recall, F1; Confusion Matrix)
+🧭 Methods
+1. Pre-processing (Inconsistent Formats, Missing Values, Outliers)
+2. Feature Engineering (created New Features for interpretability, Encoding, Log Transform, Scaling, Feature Selection, Correlation Analysis, Dimension Reduction) 
+3. Classification Models (Logistic Regression, Naive Bayes, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Tree, Ensemble Learning: Random Forest)
+4. Hyperparameter Tuning (GridSearch)
+5. Evaluation Metrics (Accuracy, ROC Curve, Precision, Recall, F1-Score)
+6. Feature Importance
 
 🥇 Results
-Best: Model-8 (256-128-64 + Dropout 0.1 + BatchNorm)
-Test: Acc 87.3% • Precision 82.1% • Recall 84.1% • F1 83.1%
-Insights: Lead time strongly drives cancellations; ADR has weak correlation.
+Best: Random Forest
+Test: Accuracy: 95.8%, ROC-AUC: 0.99, F1-score: 0.96
+Insights: Top 5 most important feature in predicting passenger satisfaction: seat comfort, inflight entertainment, either business/personal travel, baggage handling, and online support. From these we can say that to boost satisfaction the focus should be on operational (in-flight) services rather than flight delays.
