@@ -1,1 +1,6 @@
+**Assessments for Other Courses including:**
 
+1. **Project Management** - Showcases knowledge in Project Management such as creation of Project Charter, Risk Identification, Project Schedule, Budgetting, Stakeholder Management, and Project Monitoring.
+2. **Competencies in Virtual Teams** - Shows Personal Competencies and Leadership Style, Preparation of Virtual Teams, Managing Team Environment, Performance Management, and Team Development.
+3. **Innovation Management and Digital Transformation** - Showcases knowledge in Innovation strategies, SWOT analysis, Gap Assessment, Strategic Innovation Framework, Digital Transformation Roadmap, Design Thinking, and Identifying KPIs and Success Metrics.
+4. **Research** - Title: _"Impact of AI Tool Adoption to Compensation of Tech Professionals in Germany - Insights from the 2025 Developer Survey by Stack Overflow"_ - Using Multivariate Linear Regression with Interaction Terms to test for significance and strength of correlation among variables and if there are presence of moderating and mediating effects. The study shows that frequent use of AI Tools relates to higher compensation (around 4% increase) regardless of your job role, industry, or work experience.
